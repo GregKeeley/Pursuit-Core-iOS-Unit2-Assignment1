@@ -16,9 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drg-Nz-nXF" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
-                                <rect key="frame" x="157" y="289" width="100" height="147"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grid" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8oA-lz-TTl">
+                                <rect key="frame" x="20" y="158" width="374" height="363"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.12701994010000001" green="0.31025340019999997" blue="0.178070599" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drg-Nz-nXF" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="157" y="289" width="100" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="113"/>
                                 <state key="normal" title="?"/>
                                 <userDefinedRuntimeAttributes>
@@ -33,9 +37,8 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Lo-4z-g3f"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OxM-7F-7fc" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
-                                <rect key="frame" x="157" y="397" width="100" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OxM-7F-7fc" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="157" y="397" width="100" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="113"/>
                                 <state key="normal" title="?"/>
                                 <userDefinedRuntimeAttributes>
@@ -50,9 +53,8 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ePc-A7-qWC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgB-ra-3uB" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
-                                <rect key="frame" x="265" y="397" width="100" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgB-ra-3uB" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="265" y="397" width="100" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="113"/>
                                 <state key="normal" title="?"/>
                                 <userDefinedRuntimeAttributes>
@@ -67,9 +69,8 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dMh-iW-ZK1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hl2-KG-ldC" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
-                                <rect key="frame" x="265" y="289" width="100" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hl2-KG-ldC" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="265" y="289" width="100" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="113"/>
                                 <state key="normal" title="?"/>
                                 <userDefinedRuntimeAttributes>
@@ -84,9 +85,8 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JB9-MF-GBV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kM-Sm-SDP" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
-                                <rect key="frame" x="157" y="181" width="100" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kM-Sm-SDP" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="157" y="181" width="100" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="113"/>
                                 <state key="normal" title="?"/>
                                 <userDefinedRuntimeAttributes>
@@ -101,9 +101,8 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yBn-Z6-7wT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R91-Ig-s7f" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
-                                <rect key="frame" x="265" y="181" width="100" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R91-Ig-s7f" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="265" y="181" width="100" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="113"/>
                                 <state key="normal" title="?"/>
                                 <userDefinedRuntimeAttributes>
@@ -118,9 +117,8 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ZD-Tp-RLL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7S-EX-LjD" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
-                                <rect key="frame" x="49" y="181" width="100" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7S-EX-LjD" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="49" y="181" width="100" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="113"/>
                                 <state key="normal" title="?"/>
                                 <userDefinedRuntimeAttributes>
@@ -135,9 +133,8 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQW-uZ-V7Q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oau-GP-kjE" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
-                                <rect key="frame" x="49" y="397" width="100" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oau-GP-kjE" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="49" y="397" width="100" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="113"/>
                                 <state key="normal" title="?"/>
                                 <userDefinedRuntimeAttributes>
@@ -152,9 +149,8 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Dm-EQ-azB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mS-K5-MLx" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
-                                <rect key="frame" x="49" y="289" width="100" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mS-K5-MLx" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="49" y="289" width="100" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="113"/>
                                 <state key="normal" title="?"/>
                                 <userDefinedRuntimeAttributes>
@@ -169,13 +165,6 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HjN-IZ-KZt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tic Tac Toe?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5k8-Cs-ehG">
-                                <rect key="frame" x="49" y="69" width="316" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="59"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvv-75-Qth">
                                 <rect key="frame" x="99" y="586" width="217" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -183,20 +172,48 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tic Tac Toe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5k8-Cs-ehG">
+                                <rect key="frame" x="49" y="78" width="316" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="59"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OxM-7F-7fc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3ih-P7-nSw"/>
+                            <constraint firstItem="2mS-K5-MLx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4T0-uc-UyM"/>
+                            <constraint firstItem="qgB-ra-3uB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5OY-sS-vrh"/>
+                            <constraint firstItem="0kM-Sm-SDP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7YE-7y-fQ8"/>
+                            <constraint firstItem="0kM-Sm-SDP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9yx-J5-Zow"/>
+                            <constraint firstItem="OxM-7F-7fc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Gsk-5f-GN2"/>
+                            <constraint firstItem="Hl2-KG-ldC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I3X-n6-pU5"/>
+                            <constraint firstItem="oau-GP-kjE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ToP-D5-TGI"/>
+                            <constraint firstItem="Drg-Nz-nXF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wsm-dV-VU5"/>
+                            <constraint firstItem="g7S-EX-LjD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b0i-j5-3ki"/>
+                            <constraint firstItem="oau-GP-kjE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dt0-Zy-Nns"/>
+                            <constraint firstItem="Hl2-KG-ldC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eJg-sL-FqM"/>
+                            <constraint firstItem="Drg-Nz-nXF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hGk-PE-OpT"/>
+                            <constraint firstItem="R91-Ig-s7f" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nWT-uX-f3e"/>
+                            <constraint firstItem="g7S-EX-LjD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nyb-Yp-UBu"/>
+                            <constraint firstItem="R91-Ig-s7f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xob-Ee-N22"/>
+                            <constraint firstItem="qgB-ra-3uB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z97-CZ-gdE"/>
+                            <constraint firstItem="2mS-K5-MLx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zo8-Mz-hI7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="gameButton1" destination="g7S-EX-LjD" id="2SW-na-FI1"/>
-                        <outlet property="gameButton2" destination="0kM-Sm-SDP" id="5et-R3-xtw"/>
-                        <outlet property="gameButton3" destination="R91-Ig-s7f" id="fU6-UQ-Z1K"/>
-                        <outlet property="gameButton4" destination="2mS-K5-MLx" id="mKw-Y9-o4O"/>
-                        <outlet property="gameButton5" destination="Hl2-KG-ldC" id="oSd-hP-w6R"/>
-                        <outlet property="gameButton6" destination="oau-GP-kjE" id="XEg-g6-zHj"/>
-                        <outlet property="gameButton7" destination="OxM-7F-7fc" id="aOc-LH-QpV"/>
-                        <outlet property="gameButton8" destination="qgB-ra-3uB" id="mt4-fI-JpM"/>
                         <outlet property="mainLabel" destination="mvv-75-Qth" id="bLc-Nb-Lii"/>
+                        <outletCollection property="gameButtons" destination="g7S-EX-LjD" collectionClass="NSMutableArray" id="dNk-yz-NaC"/>
+                        <outletCollection property="gameButtons" destination="R91-Ig-s7f" collectionClass="NSMutableArray" id="Y3g-T1-6Ef"/>
+                        <outletCollection property="gameButtons" destination="0kM-Sm-SDP" collectionClass="NSMutableArray" id="xv9-1W-0yL"/>
+                        <outletCollection property="gameButtons" destination="Hl2-KG-ldC" collectionClass="NSMutableArray" id="kaU-EO-Mib"/>
+                        <outletCollection property="gameButtons" destination="Drg-Nz-nXF" collectionClass="NSMutableArray" id="bbM-cm-nL3"/>
+                        <outletCollection property="gameButtons" destination="2mS-K5-MLx" collectionClass="NSMutableArray" id="7TY-zR-3SK"/>
+                        <outletCollection property="gameButtons" destination="qgB-ra-3uB" collectionClass="NSMutableArray" id="7j2-vQ-2GX"/>
+                        <outletCollection property="gameButtons" destination="OxM-7F-7fc" collectionClass="NSMutableArray" id="lai-LN-QYM"/>
+                        <outletCollection property="gameButtons" destination="oau-GP-kjE" collectionClass="NSMutableArray" id="Zm7-kp-apj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -204,4 +221,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="grid" catalog="system" width="64" height="56"/>
+    </resources>
 </document>

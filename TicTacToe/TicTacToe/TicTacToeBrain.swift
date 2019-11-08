@@ -10,4 +10,10 @@ import Foundation
 
 class TicTacToeBrain {
     
+    let winningCombos = [(Int, Int)]()
+    
+    func checkGame() {
+    
+    }
 }
+
