@@ -36,10 +36,6 @@ class ViewController: UIViewController {
                 
                 activePlayer = 2
                 gameState[sender.tag] = 1
-//                print(activePlayer)
-//                print(gameState)
-//                print(sender.col, sender.row)
-                
                 player1Arr.append((sender.col, sender.row))
                 print(player1Arr)
                 gameStatus.checkGame()
@@ -48,9 +44,6 @@ class ViewController: UIViewController {
                 sender.setTitle("O", for: .normal)
                 activePlayer = 1
                 gameState[sender.tag] = 2
-//                print(activePlayer)
-//                print(gameState)
-//                print(sender.col, sender.row)
                 player2Arr.append((sender.col, sender.row))
                 print(player2Arr)
                 gameStatus.checkGame()
